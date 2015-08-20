@@ -4,6 +4,18 @@
   "private": true,
   "author": "chatbot@apigee.com",
   "description": "A simple hubot (pronounced hew-bot) for Apigee",
+  "keywords": [
+    "OpenShift",
+    "Node.js",
+    "application",
+    "openshift"
+  ],
+
+  "engines": {
+    "node": ">= 0.10.x",
+    "npm": ">= 1.1.0"
+  },
+
   "dependencies": {
     "hubot": "^2.15.0",
     "hubot-diagnostics": "0.0.1",
@@ -19,9 +31,7 @@
     "hubot-scripts": "^2.16.2",
     "hubot-shipit": "^0.2.0"
   },
-  "engines": {
-    "node": "0.10.x"
-  },
+
   "scripts": {
     "start": "PORT=$OPENSHIFT_NODEJS_PORT BIND_ADDRESS=$OPENSHIFT_NODEJS_IP HEROKU_URL=$OPENSHIFT_APP_DNS REDIS_URL=redis://:$REDIS_PASSWORD@$OPENSHIFT_REDIS_HOST:$OPENSHIFT_REDIS_PORT HUBOT_IRC_SERVER=apigee.irc.slack.com HUBOT_IRC_NICK=chatbot HUBOT_IRC_ROOMS='#general, #random' HUBOT_IRC_USESSL=true HUBOT_IRC_UNFLOOD=false bin/hubot -a irc"
   }

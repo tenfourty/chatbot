@@ -2,6 +2,7 @@
   "hubot-diagnostics",
   "hubot-help",
   "hubot-heroku-keepalive",
+  "hubot-giphy-gifme",
   "hubot-google-images",
   "hubot-google-translate",
   "hubot-pugme",

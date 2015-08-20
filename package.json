@@ -2,15 +2,21 @@
   "name": "chatbot",
   "version": "0.0.1",
   "private": true,
-  "author": "chatbot@apigee.com",
-  "description": "A simple hubot (pronounced hew-bot) for Apigee",
+  "description": "A simple hubot (pronounced hew-bot) for Apigee, my source code lives here https://github.com/tenfourty/chatbot",
   "keywords": [
     "OpenShift",
     "Node.js",
     "application",
     "openshift"
   ],
-
+  "author": {
+    "name": "Jeremy Brown",
+    "email": "chatbot@apigee.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tenfourty/chatbot"
+  },
   "engines": {
     "node": ">= 0.10.x",
     "npm": ">= 1.1.0"
@@ -33,6 +39,6 @@
   },
 
   "scripts": {
-    "start": "PORT=$OPENSHIFT_NODEJS_PORT BIND_ADDRESS=$OPENSHIFT_NODEJS_IP HEROKU_URL=$OPENSHIFT_APP_DNS REDIS_URL=redis://:$REDIS_PASSWORD@$OPENSHIFT_REDIS_HOST:$OPENSHIFT_REDIS_PORT HUBOT_IRC_SERVER=apigee.irc.slack.com HUBOT_IRC_NICK=chatbot HUBOT_IRC_ROOMS='#general, #random' HUBOT_IRC_USESSL=true HUBOT_IRC_UNFLOOD=false bin/hubot -a irc"
+    "start": "PORT=$OPENSHIFT_NODEJS_PORT BIND_ADDRESS=$OPENSHIFT_NODEJS_IP HEROKU_URL=$OPENSHIFT_APP_DNS REDIS_URL=redis://:$REDIS_PASSWORD@$OPENSHIFT_REDIS_HOST:$OPENSHIFT_REDIS_PORT HUBOT_IRC_SERVER=apigee.irc.slack.com HUBOT_IRC_NICK=chatbot HUBOT_IRC_ROOMS='#general, #random' HUBOT_IRC_USESSL=true HUBOT_IRC_UNFLOOD=false bin/hubot --name chatbot -a irc"
   }
 }

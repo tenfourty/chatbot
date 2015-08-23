@@ -14,5 +14,6 @@
   "hubot-letthehate",
   "hubot-tube-status",
   "hubot-suncalc",
-  "hubot-sentiment"
+  "hubot-sentiment",
+  "hubot-counter"
 ]

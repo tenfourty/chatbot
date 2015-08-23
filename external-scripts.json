@@ -15,5 +15,6 @@
   "hubot-tube-status",
   "hubot-suncalc",
   "hubot-sentiment",
-  "hubot-counter"
+  "hubot-counter",
+  "hubot-scripts-stock"
 ]

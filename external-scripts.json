@@ -11,5 +11,6 @@
   "hubot-rules",
   "hubot-shipit",
   "hubot-self-uptime",
-  "hubot-letthehate"
+  "hubot-letthehate",
+  "hubot-tube-status"
 ]

@@ -14,6 +14,8 @@
 #   eliperkins
 #   maddox
 #   johnwyles
+#
+# from https://github.com/github/hubot-scripts/blob/master/src/scripts/stock.coffee
 
 module.exports = (robot) ->
   robot.respond /stock (?:info|price|quote)?\s?(?:for|me)?\s?@?([A-Za-z0-9.-_]+)\s?(\d+\w+)?/i, (msg) ->

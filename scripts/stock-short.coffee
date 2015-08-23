@@ -13,6 +13,8 @@
 #
 # Author:
 #   jamiew
+#
+# from https://github.com/vhx/spacecat/blob/master/scripts/stock-short.coffee
 
 module.exports = (robot) ->
   robot.respond /(stock|quote) \$?([\w .-_]+)/i, (msg) ->

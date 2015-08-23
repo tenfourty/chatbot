@@ -37,6 +37,7 @@
     "hubot-rules": "^0.1.1",
     "hubot-scripts": "^2.16.2",
     "hubot-self-uptime": "0.0.3",
+    "hubot-sentiment": "^1.2.6",
     "hubot-shipit": "^0.2.0",
     "hubot-suncalc": "^0.1.1",
     "hubot-tube-status": "^0.1.2"

@@ -13,5 +13,6 @@
   "hubot-self-uptime",
   "hubot-letthehate",
   "hubot-tube-status",
-  "hubot-suncalc"
+  "hubot-suncalc",
+  "hubot-sentiment"
 ]

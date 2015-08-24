@@ -40,3 +40,6 @@ module.exports = (robot) ->
   robot.router.get "/hubot/ip", (req, res) ->
     robot.http('http://ifconfig.me/ip').get() (err, r, body) ->
       res.end body
+
+  robot.router.get "/hubot/source", (req, res) ->
+    res.end "Fork this https://github.com/tenfourty/chatbot and issue a PR!"

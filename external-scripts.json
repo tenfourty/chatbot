@@ -23,6 +23,5 @@
   "hubot-curl",
   "hubot-plusplus",
   "hubot-fitbit-leaders",
-  "hubot-scripts-stock",
-  "hubot-mute"
+  "hubot-scripts-stock"
 ]

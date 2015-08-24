@@ -26,6 +26,7 @@
     "hubot-curl": "^0.1.0",
     "hubot-cybernetic": "0.0.1",
     "hubot-diagnostics": "0.0.1",
+    "hubot-fitbit-leaders": "^1.1.0",
     "hubot-giphy-gifme": "0.1.4",
     "hubot-google-images": "^0.2.1",
     "hubot-google-translate": "^0.2.0",

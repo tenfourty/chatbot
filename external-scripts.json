@@ -22,5 +22,6 @@
   "hubot-http-status",
   "hubot-curl",
   "hubot-plusplus",
+  "hubot-fitbit-leaders",
   "hubot-scripts-stock"
 ]

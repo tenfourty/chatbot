@@ -16,5 +16,10 @@
   "hubot-suncalc",
   "hubot-sentiment",
   "hubot-counter",
+  "hubot-isup",
+  "hubot-xkcd",
+  "hubot-cybernetic",
+  "hubot-logo",
+  "hubot-http-status",
   "hubot-scripts-stock"
 ]

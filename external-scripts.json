@@ -21,5 +21,6 @@
   "hubot-cybernetic",
   "hubot-logo",
   "hubot-http-status",
+  "hubot-curl",
   "hubot-scripts-stock"
 ]

@@ -24,6 +24,7 @@
   "dependencies": {
     "hubot": "^2.15.0",
     "hubot-counter": "^0.1.0",
+    "hubot-curl": "^0.1.0",
     "hubot-cybernetic": "0.0.1",
     "hubot-diagnostics": "0.0.1",
     "hubot-giphy-gifme": "0.1.4",

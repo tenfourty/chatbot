@@ -7,8 +7,12 @@ cache:
   - node_modules
 notifications:
   email: true
-  webhooks: http://www.apigee-chatbot.me/:80/chatbot/travisci/chatbot-dev
-  on_start: true
+  webhooks:
+    urls:
+      - http://www.apigee-chatbot.me/chatbot/travisci/chatbot-dev
+    on_success: always
+    on_failure: always
+    on_start: always
 deploy:
   provider: openshift
   user: jeremy@tenfourty.com

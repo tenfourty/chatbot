@@ -11,6 +11,7 @@
 #   None
 #
 # URLS:
+#   /
 #   /hubot/version
 #   /hubot/ping
 #   /hubot/time
@@ -20,6 +21,9 @@
 spawn = require('child_process').spawn
 
 module.exports = (robot) ->
+
+  robot.router.get "/", (req, res) ->
+    res.end "hello world from the apigee chatbot"
 
   robot.router.get "/#{robot.name}/version", (req, res) ->
     res.end robot.version

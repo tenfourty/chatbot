@@ -48,11 +48,9 @@
     "hubot-self-uptime": "0.0.3",
     "hubot-sentiment": "^1.2.6",
     "hubot-shipit": "^0.2.0",
-    "hubot-slack": "^3.3.0",
     "hubot-suncalc": "^0.1.1",
     "hubot-travisci-notifier": "git://github.com/1syo/hubot-travisci-notifier.git",
     "hubot-tube-status": "^0.1.2",
-    "hubot-xkcd": "0.0.3",
     "mukundha": "git://github.com/mukundha/aar-bot"
   },
   "scripts": {

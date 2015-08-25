@@ -38,6 +38,7 @@
     "hubot-letthehate": "^1.1.0",
     "hubot-logo": "0.0.8",
     "hubot-maps": "0.0.2",
+    "hubot-mute": "0.0.9",
     "hubot-plusplus": "^1.1.5",
     "hubot-pugme": "^0.1.0",
     "hubot-redis-brain": "0.0.3",
@@ -48,6 +49,7 @@
     "hubot-sentiment": "^1.2.6",
     "hubot-shipit": "^0.2.0",
     "hubot-suncalc": "^0.1.1",
+    "hubot-travisci-notifier": "git://github.com/1syo/hubot-travisci-notifier.git",
     "hubot-tube-status": "^0.1.2",
     "hubot-xkcd": "0.0.3"
   },

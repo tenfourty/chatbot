@@ -47,11 +47,12 @@
     "hubot-scripts-stock": "^0.2.0",
     "hubot-self-uptime": "0.0.3",
     "hubot-sentiment": "^1.2.6",
-    "hubot-shipit": "^0.2.0",
+    "hubot-shipit": "^0.2.0",    
     "hubot-suncalc": "^0.1.1",
     "hubot-travisci-notifier": "git://github.com/1syo/hubot-travisci-notifier.git",
     "hubot-tube-status": "^0.1.2",
-    "hubot-xkcd": "0.0.3"
+    "hubot-xkcd": "0.0.3",
+    "mukundha": "git://github.com/mukundha/aar-bot"
   },
   "scripts": {
     "start": "PORT=$OPENSHIFT_NODEJS_PORT BIND_ADDRESS=$OPENSHIFT_NODEJS_IP HEROKU_URL=$OPENSHIFT_APP_DNS REDIS_URL=redis://:$REDIS_PASSWORD@$OPENSHIFT_REDIS_HOST:$OPENSHIFT_REDIS_PORT HUBOT_IRC_SERVER=apigee.irc.slack.com HUBOT_IRC_NICK=chatbot HUBOT_IRC_ROOMS='#general, #random' HUBOT_IRC_USESSL=true HUBOT_IRC_UNFLOOD=false bin/hubot --name chatbot -a irc"

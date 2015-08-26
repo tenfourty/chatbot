@@ -1,6 +1,6 @@
 {
   "name": "chatbot",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "private": true,
   "description": "A simple hubot (pronounced hew-bot) for Apigee, my source code lives here https://github.com/tenfourty/chatbot",
   "keywords": [
@@ -22,7 +22,6 @@
     "npm": ">= 1.1.0"
   },
   "dependencies": {
-    "aarbot": "git://github.com/mukundha/aar-bot",
     "hubot": "^2.15.0",
     "hubot-curl": "^0.1.0",
     "hubot-cybernetic": "0.0.1",
@@ -34,7 +33,7 @@
     "hubot-help": "^0.1.1",
     "hubot-heroku-keepalive": "0.0.4",
     "hubot-http-status": "^0.2.1",
-    "hubot-irc": "^0.2.7",
+    "hubot-irc": "nandub/hubot-irc",
     "hubot-isup": "^1.0.2",
     "hubot-letthehate": "^1.1.0",
     "hubot-logo": "0.0.8",
@@ -50,11 +49,11 @@
     "hubot-sentiment": "^1.2.6",
     "hubot-shipit": "^0.2.0",
     "hubot-suncalc": "^0.1.1",
-    "hubot-travisci-notifier": "git://github.com/1syo/hubot-travisci-notifier.git",
+    "hubot-travisci-notifier": "1syo/hubot-travisci-notifier",
     "hubot-tube-status": "^0.1.2",
     "hubot-xkcd": "0.0.3"
   },
   "scripts": {
-    "start": "PORT=$OPENSHIFT_NODEJS_PORT BIND_ADDRESS=$OPENSHIFT_NODEJS_IP HEROKU_URL=$OPENSHIFT_APP_DNS REDIS_URL=redis://:$REDIS_PASSWORD@$OPENSHIFT_REDIS_HOST:$OPENSHIFT_REDIS_PORT HUBOT_IRC_SERVER=apigee.irc.slack.com HUBOT_IRC_NICK=chatbot HUBOT_IRC_ROOMS='#general, #random' HUBOT_IRC_USESSL=true HUBOT_IRC_UNFLOOD=false bin/hubot --name chatbot -a irc"
+    "start": "PORT=$OPENSHIFT_NODEJS_PORT BIND_ADDRESS=$OPENSHIFT_NODEJS_IP HEROKU_URL=http://$OPENSHIFT_APP_DNS REDIS_URL=redis://:$REDIS_PASSWORD@$OPENSHIFT_REDIS_HOST:$OPENSHIFT_REDIS_PORT HUBOT_IRC_SERVER=apigee.irc.slack.com HUBOT_IRC_NICK=chatbot HUBOT_IRC_ROOMS='#general, #random' HUBOT_IRC_USESSL=true HUBOT_IRC_UNFLOOD=false bin/hubot --name chatbot -a irc"
   }
 }

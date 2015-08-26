@@ -26,6 +26,5 @@
   "hubot-fitbit-leaders",
   "hubot-scripts-stock",
   "hubot-travisci-notifier",
-  "hubot-mute",
-  "aarbot"
+  "hubot-mute"
 ]

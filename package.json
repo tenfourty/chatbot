@@ -22,7 +22,6 @@
     "npm": ">= 1.1.0"
   },
   "dependencies": {
-    "aarbot": "git://github.com/mukundha/aar-bot",
     "hubot": "^2.15.0",
     "hubot-curl": "^0.1.0",
     "hubot-cybernetic": "0.0.1",

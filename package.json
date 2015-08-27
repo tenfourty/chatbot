@@ -52,9 +52,10 @@
     "hubot-suncalc": "^0.1.1",
     "hubot-travisci-notifier": "1syo/hubot-travisci-notifier",
     "hubot-tube-status": "^0.1.2",
-    "hubot-xkcd": "0.0.3"
+    "hubot-xkcd": "0.0.3",
+    "aarbot": "git://github.com/mukundha/aar-bot"
   },
   "scripts": {
-    "start": "PORT=$OPENSHIFT_NODEJS_PORT BIND_ADDRESS=$OPENSHIFT_NODEJS_IP HEROKU_URL=http://$OPENSHIFT_APP_DNS REDIS_URL=redis://:$REDIS_PASSWORD@$OPENSHIFT_REDIS_HOST:$OPENSHIFT_REDIS_PORT HUBOT_IRC_SERVER=apigee.irc.slack.com HUBOT_IRC_NICK=chatbot HUBOT_IRC_ROOMS='#general, #random' HUBOT_IRC_USESSL=true HUBOT_IRC_UNFLOOD=false bin/hubot AAR_CONFIG_FILE=${OPENSHIFT_DATA_DIR}rfpkey.json --name chatbot -a irc"
+    "start": "PORT=$OPENSHIFT_NODEJS_PORT BIND_ADDRESS=$OPENSHIFT_NODEJS_IP HEROKU_URL=http://$OPENSHIFT_APP_DNS REDIS_URL=redis://:$REDIS_PASSWORD@$OPENSHIFT_REDIS_HOST:$OPENSHIFT_REDIS_PORT HUBOT_IRC_SERVER=apigee.irc.slack.com HUBOT_IRC_NICK=chatbot HUBOT_IRC_ROOMS='#general, #random' HUBOT_IRC_USESSL=true HUBOT_IRC_UNFLOOD=false AAR_CONFIG_FILE=${OPENSHIFT_DATA_DIR}rfpkey.json bin/hubot --name chatbot -a irc"
   }
 }

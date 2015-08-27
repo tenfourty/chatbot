@@ -2,3 +2,4 @@ node_modules
 .DS_Store*
 .hubot_history
 start.sh
+data_local

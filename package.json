@@ -34,7 +34,6 @@
     "hubot-help": "^0.1.1",
     "hubot-heroku-keepalive": "0.0.4",
     "hubot-http-status": "^0.2.1",
-    "hubot-irc": "nandub/hubot-irc",
     "hubot-isup": "^1.0.2",
     "hubot-letthehate": "^1.1.0",
     "hubot-logo": "0.0.8",

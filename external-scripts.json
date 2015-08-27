@@ -26,5 +26,6 @@
   "hubot-scripts-stock",
   "hubot-travisci-notifier",
   "hubot-mute",
-  "aarbot"
+  "aarbot",
+  "hubot-apigee-qoutes"
 ]

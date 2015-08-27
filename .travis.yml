@@ -14,11 +14,20 @@ notifications:
     on_failure: always
     on_start: always
 deploy:
-  provider: openshift
-  user: jeremy@tenfourty.com
-  password:
-    secure: cM5DsCmyT749BEROo79iSLT3GJa7d2OcTTpYYpAojV7ieYGTgXfAEAqFdF6sCDRBPgd4Zc5ECeP2o+CBYXt9RSoK+qiOpT7RhFMK99TdjWMWNZ/rrY7p3+zj2+M3kH9k1NBFCIOc28/8EDmVe6HmE1tMmdOdWY4/3rA+4FPHwAJ0OxuVA0hpFj8mRP694it7tm0Gq7L+WEJbzxnorC8Y7O7xLygZZ4tho2XH9/rrjZ4fbIsLe3tffrjcauFJAAtzrn5DswdUJdVbpepLqu6yvearjB0Sq0UBDXj+SWDbofrA/foB+V5Nd6v5zu6KZflADbb2ph7kN4LXOaucmLuMPIvk0W3bRKPK54iQxKelSQ6kESX6QbWFxQGcgiCFc5SIDQhAN79y5x9ahV/ss1gJ97aZ0C1JwJWKUTP4NN3KcCqrw0vzuf2wYAvM0dfrYhR4Xx2s3kbxxVPRTLrDINLQNRTw4SOco7nCtMyXF/d0v+5Hnc3eX0INukVdPhyE7M3A42puIxxsYkEtb7z2diBju2iRzl0JU1hvAQJvLsxyQf7SOrkcfA8rVYMOHKQUg3GHz8YFVqLUChHlNr+M5DyiBeRQVJpyPW68347OSBZXTFbkfYf5rtYsSxc/c5yHY2FosZUmLt5Q8GXc/QoBPh7IOl6IxrEMDtfkgpRxpGtWXXo=
-  app: chatbot
-  domain: usingthe
-  on:
-    repo: tenfourty/chatbot
+  - provider: openshift
+    user: jeremy@tenfourty.com
+    password:
+      secure: cM5DsCmyT749BEROo79iSLT3GJa7d2OcTTpYYpAojV7ieYGTgXfAEAqFdF6sCDRBPgd4Zc5ECeP2o+CBYXt9RSoK+qiOpT7RhFMK99TdjWMWNZ/rrY7p3+zj2+M3kH9k1NBFCIOc28/8EDmVe6HmE1tMmdOdWY4/3rA+4FPHwAJ0OxuVA0hpFj8mRP694it7tm0Gq7L+WEJbzxnorC8Y7O7xLygZZ4tho2XH9/rrjZ4fbIsLe3tffrjcauFJAAtzrn5DswdUJdVbpepLqu6yvearjB0Sq0UBDXj+SWDbofrA/foB+V5Nd6v5zu6KZflADbb2ph7kN4LXOaucmLuMPIvk0W3bRKPK54iQxKelSQ6kESX6QbWFxQGcgiCFc5SIDQhAN79y5x9ahV/ss1gJ97aZ0C1JwJWKUTP4NN3KcCqrw0vzuf2wYAvM0dfrYhR4Xx2s3kbxxVPRTLrDINLQNRTw4SOco7nCtMyXF/d0v+5Hnc3eX0INukVdPhyE7M3A42puIxxsYkEtb7z2diBju2iRzl0JU1hvAQJvLsxyQf7SOrkcfA8rVYMOHKQUg3GHz8YFVqLUChHlNr+M5DyiBeRQVJpyPW68347OSBZXTFbkfYf5rtYsSxc/c5yHY2FosZUmLt5Q8GXc/QoBPh7IOl6IxrEMDtfkgpRxpGtWXXo=
+    app: dev
+    domain: apigeestuff
+    on:
+      repo: tenfourty/chatbot
+  - provider: openshift
+    user: jeremy@tenfourty.com
+    password:
+      secure: cM5DsCmyT749BEROo79iSLT3GJa7d2OcTTpYYpAojV7ieYGTgXfAEAqFdF6sCDRBPgd4Zc5ECeP2o+CBYXt9RSoK+qiOpT7RhFMK99TdjWMWNZ/rrY7p3+zj2+M3kH9k1NBFCIOc28/8EDmVe6HmE1tMmdOdWY4/3rA+4FPHwAJ0OxuVA0hpFj8mRP694it7tm0Gq7L+WEJbzxnorC8Y7O7xLygZZ4tho2XH9/rrjZ4fbIsLe3tffrjcauFJAAtzrn5DswdUJdVbpepLqu6yvearjB0Sq0UBDXj+SWDbofrA/foB+V5Nd6v5zu6KZflADbb2ph7kN4LXOaucmLuMPIvk0W3bRKPK54iQxKelSQ6kESX6QbWFxQGcgiCFc5SIDQhAN79y5x9ahV/ss1gJ97aZ0C1JwJWKUTP4NN3KcCqrw0vzuf2wYAvM0dfrYhR4Xx2s3kbxxVPRTLrDINLQNRTw4SOco7nCtMyXF/d0v+5Hnc3eX0INukVdPhyE7M3A42puIxxsYkEtb7z2diBju2iRzl0JU1hvAQJvLsxyQf7SOrkcfA8rVYMOHKQUg3GHz8YFVqLUChHlNr+M5DyiBeRQVJpyPW68347OSBZXTFbkfYf5rtYsSxc/c5yHY2FosZUmLt5Q8GXc/QoBPh7IOl6IxrEMDtfkgpRxpGtWXXo=
+    app: prod
+    domain: apigeestuff
+    on:
+      repo: tenfourty/chatbot
+      tags: true

@@ -1,6 +1,6 @@
 {
   "name": "chatbot",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "private": true,
   "description": "A simple hubot (pronounced hew-bot) for Apigee, my source code lives here https://github.com/tenfourty/chatbot",
   "keywords": [

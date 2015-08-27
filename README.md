@@ -15,13 +15,13 @@ All contributions are more than welcome and easy!
 1. one of the admins will review your pull request and accept it
 1. once your pull request has been accepted your code will be built again by travis-ci, this time from the master branch
   - you can see your build happening in [travis-ci](https://travis-ci.org/tenfourty/chatbot)
-1. once your build is done it will be deployed to chatbotdev, which is running here - [http://dev.apigee-chatbot.me/](http://dev.apigee-chatbot.me/)
-1. chatbotdev will appear in the following rooms in slack:
-  - #general (no way to turn this off)
+1. once your build is done it will be deployed to dev_chatbot, which is running here - [http://dev.apigee-chatbot.me/](http://dev.apigee-chatbot.me/)
+1. dev_chatbot will appear in the following rooms in slack:
+  - #general (no way to turn this off, but it should be muted)
   - #chatbot-dev
   - #chatbot-test
   - and of course you can private message it as well
-1. do any live testing of chatbotdev but please try to only use the #chatbot-test room as we don't want to mess up the other rooms.
+1. do any live testing of dev_chatbot but please try to only use the #chatbot-test room as we don't want to mess up the other rooms.
 1. once you are happy with how it is working get one of the chatbot GitHub admins to tag the new version in the GitHub repo, this will trigger a new build in travis-ci that will deploy to the main chatbot that is sitting in all the rooms.
   - you can see the build & deploy in [travis-ci](https://travis-ci.org/tenfourty/chatbot)
   - chatbot is running here - [http://www.apigee-chatbot.me/](http://www.apigee-chatbot.me/)

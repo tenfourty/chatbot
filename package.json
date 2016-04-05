@@ -46,7 +46,7 @@
     "hubot-scripts": "^2.16.2",
     "hubot-scripts-stock": "^0.2.0",
     "hubot-self-uptime": "0.0.3",
-    "hubot-sentiment": "^1.2.6",
+    "hubot-sentiment": "^1.2.7",
     "hubot-shipit": "^0.2.0",
     "hubot-slack": "^3.3.0",
     "hubot-suncalc": "^0.1.1",
